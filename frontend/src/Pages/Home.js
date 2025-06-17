@@ -33,6 +33,9 @@ import business from '../assets/business.png';
 import map from '../assets/map.png';
 import sky from '../assets/sky.jpeg';
 import { AiOutlineAppstore } from "react-icons/ai";
+import { AiTwotoneSafetyCertificate } from "react-icons/ai";
+import { MdOutlineForwardToInbox } from "react-icons/md";
+import { TbFileStack } from "react-icons/tb";
 function Home() {
   const icons = [<TbPlant/>,<PiDressBold/>,<RiCupLine/>,<GiLipstick/>,<IoCarSportSharp/>,<MdOutlineDiamond/>,<GrBusinessService/>,<RiCustomerServiceLine/>,<FaHeadphones/>,<CgGym/>,<IoBagHandleSharp/>,<RiBox2Fill/>,<FaTools/>,<TbMoodKid/>];
   const [currentIndex, setCurrentIndex] = React.useState(0);
@@ -73,7 +76,7 @@ const scrollToSection = (id) => {
     <div>
     <div className="block_1">
       <div className="main_1">
-        <p>Learn about Alibaba.com</p>
+        <p>Learn about NiryatBazaar</p>
         <h1>The leading B2B ecommerce platform for global trade</h1>
       </div>
       
@@ -98,17 +101,17 @@ const scrollToSection = (id) => {
       <p>Explore products and suppliers for your business from millions of offerings worldwide.</p>
     </div>
     <div className="card_b2" onClick={() => scrollToSection("block_6")}>
-      <div className="icon-circle"><img src="URL_TO_ICON_2" alt="icon2" /></div>
+      <div className="icon-circle"><AiTwotoneSafetyCertificate/></div>
       <h3>Assured quality and transactions</h3>
       <p>Ensure production quality from verified suppliers, with your orders protected from payment to delivery.</p>
     </div>
     <div className="card_b2" onClick={() => scrollToSection("block_7")}>
-      <div className="icon-circle"><img src="URL_TO_ICON_3" alt="icon3" /></div>
+      <div className="icon-circle"><MdOutlineForwardToInbox/></div>
       <h3>One-stop trading solution</h3>
       <p>Order seamlessly from product/supplier search to order management, payment, and fulfillment.</p>
     </div>
     <div className="card_b2" onClick={() => scrollToSection("block_8")}>
-      <div className="icon-circle"><img src="URL_TO_ICON_4" alt="icon4" /></div>
+      <div className="icon-circle"><TbFileStack/></div>
       <h3>Tailored trading experience</h3>
       <p>Get curated benefits, such as exclusive discounts, enhanced protection, and extra support, to help grow your business every step of the way.</p>
     </div>
@@ -289,7 +292,7 @@ const scrollToSection = (id) => {
 <div className="block_8" id="block_8">
   <h2>Get tailored discounts, services, and tools for your business stage.</h2>
   <p>
-    Grow with curated benefits offered by the free Alibaba.com Membership, whether you are a small
+    Grow with curated benefits offered by the free NiryatBazaar.com Membership, whether you are a small
     business needing the essentials to start sourcing or a well-established enterprise looking for
     tools and solutions for more complex orders.
   </p>
@@ -304,7 +307,7 @@ const scrollToSection = (id) => {
         <p className="subtitle">Founder of Eva Jane Beauty</p>
         <blockquote>
           “As an entrepreneur who is deeply involved in the Beauty industry, I have been very
-          devoted to creating my original products. Alibaba.com has been my trusted partner in this
+          devoted to creating my original products. NiryatBazaar.com has been my trusted partner in this
           process.”
         </blockquote>
       </div>
@@ -320,7 +323,7 @@ const scrollToSection = (id) => {
 <div className="block_9">
   <h2>Empowering businesses through global trade</h2>
   <p>
-    Alibaba.com offers one-stop B2B trading solutions for global small and medium-sized businesses,
+    NiryatBazaar.com offers one-stop B2B trading solutions for global small and medium-sized businesses,
     empowering them to transform through digital trade, grasp opportunities, and accelerate growth
     internationally.
   </p>

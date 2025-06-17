@@ -9,10 +9,10 @@
   background-size: cover;
 }
 
-.main_1 {
+.main_1 p{
   text-align: center;
   font-size: 24px;  
-  padding: 20px;
+  padding: 10px;
   margin-left: -100px;
   
 }
@@ -21,6 +21,7 @@
   font-size: 40px;
   margin-top: 10px;
   font-weight: bold;
+  margin-left: 700px;
 }
 
 .search {
@@ -31,7 +32,7 @@
   align-items: center;
   justify-content: space-between;
   width: 700px;
-  padding: 10px 20px;
+  padding: 0px 20px;
   gap: 20px;
   color: black;
  

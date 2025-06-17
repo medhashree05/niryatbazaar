@@ -4,6 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer">
+     
       <div className="country-section">
         <h3>Find suppliers by country or region</h3>
         <div className="countries">
@@ -50,17 +51,17 @@ function Footer() {
           </ul>
         </div>
         <div className="column">
-          <h4>Source on Alibaba.com</h4>
+          <h4>Source on NiryatBazaar</h4>
           <ul>
             <li>Request for Quotation</li>
             <li>Membership program</li>
-            <li>Alibaba.com Logistics</li>
+            <li>NiryatBazaar Logistics</li>
             <li>Sales tax and VAT</li>
-            <li>Alibaba.com Reads</li>
+            <li>NiryatBazaar Reads</li>
           </ul>
         </div>
         <div className="column">
-          <h4>Sell on Alibaba.com</h4>
+          <h4>Sell on NiryatBazaar</h4>
           <ul>
             <li>Start selling</li>
             <li>Seller Central</li>
@@ -72,7 +73,7 @@ function Footer() {
         <div className="column">
           <h4>Get to know us</h4>
           <ul>
-            <li>About Alibaba.com</li>
+            <li>About NiryatBazaar</li>
             <li>Corporate responsibility</li>
             <li>News center</li>
             <li>Careers</li>
@@ -91,7 +92,7 @@ function Footer() {
         </div>
 
         <div className="apps">
-          <p>Trade on the go with the <a href="#">Alibaba.com app</a></p>
+          <p>Trade on the go with the <a href="#">NiryatBazaar app</a></p>
           <img src="appstore.png" alt="App Store" />
           <img src="googleplay.png" alt="Google Play" />
         </div>

@@ -4,6 +4,7 @@
   font-size: 14px;
   color: #333;
   padding: 40px 20px;
+ 
 }
 
 .country-section {
@@ -47,12 +48,14 @@
   margin-bottom: 40px;
   text-align: left;
   gap: 20px;
+  
 }
 
 .column {
   min-width: 180px;
   margin: 10px 0;
   padding-bottom: 0;
+  max-height: 300px;
   
 }
 

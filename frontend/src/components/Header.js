@@ -45,7 +45,7 @@ function Header() {
       <div className="navbar-sticky">
         <div className="navbar_1">
           <div className="logo">
-            <Link to="/">Alibaba.com</Link>
+            <Link to="/">NiryatBazaar</Link>
           </div>
           <div className="navbar_right">
 
@@ -58,7 +58,7 @@ function Header() {
     <div className='tr1'>
     <h4>Specify your location</h4>
     <p>Shipping options and fees vary based on your location</p>
-    <button className="btn-primary"><Link to='https://login.alibaba.com/newlogin/icbuLogin.htm?defaultActive=signIn&return_url=https%3A%2F%2Fwww.alibaba.com%2F&_lang=en_US'>Sign in to add address</Link></button>
+    <button className="btn-primary" style={{color:'black',backgroundColor:'black'}}><Link to='https://login.NiryatBazaar/newlogin/icbuLogin.htm?defaultActive=signIn&return_url=https%3A%2F%2Fwww.NiryatBazaar%2F&_lang=en_US'>Sign in to add address</Link></button>
     <div className="or-divider">Or</div>
     <select>
       <option>United States</option>
@@ -118,8 +118,8 @@ function Header() {
   </div>
   <div className="tab-dropdown">
      <div className='tr1'>
-    <h4>Welcome to Alibaba.com!</h4>
-    <button className="btn-primary"><Link to="/sign" >Sign in</Link></button>
+    <h4>Welcome to NiryatBazaar!</h4>
+    <button className="btn-primary" style={{color:'black',backgroundColor:'black'}}><Link to="/sign" >Sign in</Link></button>
     <p>Or, continue with:</p>
     <div className="social-icons">
       <FaFacebook style={{ color: 'black', fontSize: '24px' }}/>
@@ -130,7 +130,7 @@ function Header() {
       By signing in via social media, I agree to the <a href="#">Membership Agreement</a> and <a href="#">Privacy Policy</a>.
     </p>
     <ul className="signin-links">
-      <li>My Alibaba</li>
+      <li>My NiryatBazaar</li>
       <li>Orders</li>
       <li>Messages</li>
       <li>RFQs</li>
@@ -292,10 +292,10 @@ function Header() {
     <div class="dropdown-grid">
       <div>
         <h4>Get started</h4>
-        <p><a href="#">What is Alibaba.com</a></p>
+        <p><a href="#">What is NiryatBazaar</a></p>
       </div>
       <div>
-        <h4>Why Alibaba.com</h4>
+        <h4>Why NiryatBazaar</h4>
         <p><a href="#">How sourcing works</a></p>
         <p><a href="#">Membership program</a></p>
       </div>
@@ -303,7 +303,7 @@ function Header() {
         <h4>Trade services</h4>
         <p><a href="#">Order protections</a></p>
         <p><a href="#">Logistics Services</a></p>
-        <p><a href="#">Alibaba Business Credit</a></p>
+        <p><a href="#">NiryatBazaar Business Credit</a></p>
         <p><a href="#">Inspection & Monitoring</a></p>
       </div>
       <div>
@@ -346,14 +346,14 @@ function Header() {
   App & Extension
   <div class="dropdown">
     <div class="dropdown-content">
-      <img src={extension} alt="Alibaba App" class="dropdown-image-ext" />
+      <img src={extension} alt="NiryatBazaar App" class="dropdown-image-ext" />
       <div class="dropdown-text">
-        <h2>Get the Alibaba.com App</h2>
+        <h2>Get the NiryatBazaar App</h2>
         <p>Find products, chat with suppliers, and manage orders anywhere</p>
         <ul>
           <li><strong>App Store</strong><br/><a href="#">Download for iOS</a></li>
           <li><strong>Google Play</strong><br/><a href="#">Download for Android</a></li>
-          <li><strong>Alibaba Lens</strong><br/>Search visually with our Chrome extension</li>
+          <li><strong>NiryatBazaar Lens</strong><br/>Search visually with our Chrome extension</li>
         </ul>
         <a href="#" class="source-now-btn">Explore tools</a>
       </div>
@@ -362,7 +362,7 @@ function Header() {
 </div>
 
           <div className='menu-item supplier' >
-            <Link to='https://register.alibaba.com/reg/form.htm?entrance=buyerHome'>Become a supplier</Link>
+            <Link to='https://register.NiryatBazaar/reg/form.htm?entrance=buyerHome'>Become a supplier</Link>
 
           </div>
         </div>
