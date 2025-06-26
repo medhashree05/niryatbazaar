@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -23,10 +24,12 @@ function Footer() {
             </div>
           ))}
         </div>
-        <a href="#" className="view-more">
-          View more →
-        </a>
-      </div>
+      <Link to="/create">
+       View more →
+       </Link>  
+       </div>  
+        
+     
 
       <div className="links-section">
         <div className="column">
@@ -92,7 +95,7 @@ function Footer() {
         </div>
 
         <div className="apps">
-          <p>Trade on the go with the <a href="#">NiryatBazaar app</a></p>
+          <p>Trade on the go with the <Link to="/create">NiryatBazaar app</Link></p>
           <img src="appstore.png" alt="App Store" />
           <img src="googleplay.png" alt="Google Play" />
         </div>

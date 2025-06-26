@@ -61,13 +61,11 @@ html, body {
 
 /* Wrapper with background image */
 .header-wrapper {
-
-  background-image: url('C:\Users\admin\Desktop\pr\alibaba_copy\frontend\src\assets\background_1.avif');
-  background-size: cover;
-  background-position: center top;
-  width: 100%;
-  color: white;
-  position: relative;
+    background-size: cover;
+    background-position: center top;
+    width: 1887px;
+    color: white;
+    position: relative;
 }
 
 /* Fixed navbar_1 at top */
@@ -154,12 +152,13 @@ html, body {
 
 /* navbar_2 appears below fixed navbar_1 */
 .navbar_2 {
-  margin-top: 53px; /* height of fixed navbar_1 */
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 30px;
-  background-color: transparent;
-  color: white;
+    margin-top: 53px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    background-color: transparent;
+    color: white;
+    gap: 1000px;
 }
 
 .navbar2_left {

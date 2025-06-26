@@ -1,14 +1,13 @@
 .block_1 {
-  background: url('C:\Users\admin\Desktop\pr\alibaba_copy\frontend\src\assets\background_1.avif') no-repeat center center/cover;
-  color: white;
-  min-height: 70vh;
-  padding-top: 150px;
-  font-family: Arial, sans-serif;
-  margin-left: -600px;
-  background-position: 260px -200px; 
-  background-size: cover;
+    color: white;
+    min-height: 70vh;
+    padding-top: 150px;
+    font-family: Arial, sans-serif;
+    margin-left: 0px;
+    background-position: center;
+    background-size: cover;
+    width: 1887px;
 }
-
 .main_1 p{
   text-align: center;
   font-size: 24px;  
@@ -91,6 +90,7 @@
   padding: 60px 20px;
   display: flex;
   justify-content: center;
+   width: 1887px;
 }
 
 .view:hover{
@@ -149,6 +149,7 @@
   padding: 60px 20px;
   background: white;
   color: black;
+   width: 1887px;
 }
 
 .top-section {
@@ -216,6 +217,7 @@
 .block_4 {
   padding: 50px 100px;
   background: #f6f6f6;
+   width: 1887px;
 }
 
 .block_4 h2 {
@@ -353,6 +355,8 @@
 .block_5 {
   padding: 60px 20px;
   background: white;
+  margin-top: 300px;
+   width: 1887px;
 }
 
 .block_5 h2 {
@@ -400,17 +404,7 @@
 
 
 /* Keep your existing local image paths */
-.card_1 {
-  background: url("C:\\Users\\admin\\Desktop\\pr\\alibaba_copy\\frontend\\src\\assets\\Screenshot 2025-06-15 204329.png") no-repeat center center / cover;
-}
 
-.card_2 {
-  background: url("C:\\Users\\admin\\Desktop\\pr\\alibaba_copy\\frontend\\src\\assets\\Screenshot 2025-06-15 204344.png") no-repeat center center / cover;
-}
-
-.card_3 {
-  background: url("C:\\Users\\admin\\Desktop\\pr\\alibaba_copy\\frontend\\src\\assets\\Screenshot 2025-06-15 204422.png") no-repeat center center / cover;
-}
 .card-action:hover{
   text-decoration: underline;
   cursor: pointer;
@@ -435,13 +429,14 @@
   color: white;
   padding: 60px 20px;
   overflow: hidden;
+   width: 1887px;
 }
 
 .block_6::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: url('C:/Users/admin/Desktop/pr/alibaba_copy/frontend/src/assets/block_6.jpg') no-repeat center center/cover;
+ 
   opacity: 0.5; /* Control transparency here */
   z-index: 0;
 }
@@ -513,6 +508,7 @@
   padding: 60px 40px;
   align-items: flex-start;
   flex-wrap: wrap;
+   width: 1887px;
 }
 
 .left-section {
@@ -629,6 +625,7 @@
   background-color: #f9f5f2;
   padding: 60px 30px;
   text-align: center;
+   width: 1887px;
 }
 
 .block_8 h2 {
@@ -705,6 +702,7 @@ blockquote {
   padding: 60px 30px;
   text-align: center;
   background: #fff;
+   width: 1887px;
 }
 
 .block_9 h2 {
@@ -759,6 +757,7 @@ blockquote {
   text-align: center;
   color: white;
   position: relative;
+   width: 1887px;
 }
 
 .block_10::before {

@@ -36,8 +36,37 @@ import { AiOutlineAppstore } from "react-icons/ai";
 import { AiTwotoneSafetyCertificate } from "react-icons/ai";
 import { MdOutlineForwardToInbox } from "react-icons/md";
 import { TbFileStack } from "react-icons/tb";
+import bgImage from '../assets/background_1.avif';
+import bg2 from '../assets/card_1.png';
+import bg3 from '../assets/card_2.png';
+import bg4 from '../assets/card_3.png';
+import bg5 from '../assets/block_6.jpg';
+
+
 function Home() {
-  const icons = [<TbPlant/>,<PiDressBold/>,<RiCupLine/>,<GiLipstick/>,<IoCarSportSharp/>,<MdOutlineDiamond/>,<GrBusinessService/>,<RiCustomerServiceLine/>,<FaHeadphones/>,<CgGym/>,<IoBagHandleSharp/>,<RiBox2Fill/>,<FaTools/>,<TbMoodKid/>];
+  const divStyle = {
+    backgroundImage: `url(${bgImage})`,
+  };
+  const divStyle3 = {
+    backgroundImage: `url(${bg2})`,
+  };
+  const divStyle4 = {
+    backgroundImage: `url(${bg3})`,
+  };
+  const divStyle5 = {
+    backgroundImage: `url(${bg4})`,
+  };
+ 
+ const divStyle2 = {
+  backgroundImage: `url(${bg5})`,
+  backgroundRepeat: 'no-repeat',
+  backgroundPosition: 'center',
+  backgroundSize: 'cover',
+};
+
+
+  const icons = [<TbPlant/>,<PiDressBold/>,<RiCupLine/>,<GiLipstick/>,<IoCarSportSharp/>,<MdOutlineDiamond/>,
+  ,<RiCustomerServiceLine/>,<FaHeadphones/>,<CgGym/>,<IoBagHandleSharp/>,<RiBox2Fill/>,<FaTools/>,<TbMoodKid/>];
   const [currentIndex, setCurrentIndex] = React.useState(0);
 
 const topRankingItems = [
@@ -74,7 +103,7 @@ const scrollToSection = (id) => {
 
   return (
     <div>
-    <div className="block_1">
+    <div className="block_1" style={divStyle}>
       <div className="main_1">
         <p>Learn about NiryatBazaar</p>
         <h1>The leading B2B ecommerce platform for global trade</h1>
@@ -205,22 +234,22 @@ const scrollToSection = (id) => {
       <div className="block_5">
   <h2>Source direct-from-factory</h2>
   <div className="factory-cards">
-    <div className="card_1">
+    <div className="card_1" style={divStyle3}>
       <div className="card-title">Connect with top-ranking manufacturers</div>
       <div className="card-action">View more</div>
     </div>
-    <div className="card_2">
+    <div className="card_2" style={divStyle4}>
       <div className="card-title">Get samples</div>
       <div className="card-action ">View more</div>
     </div>
-    <div className="card_3">
+    <div className="card_3" style={divStyle5}>
       <div className="card-title">Take factory live tours</div>
       <div className="card-action">View LIVE</div>
     </div>
   </div>
 </div>
 
-    <div className="block_6" id="block_6">
+    <div className="block_6" id="block_6" style={divStyle2}>
   <div className="overlay-text">
     <h2>Trade with confidence from production quality to purchase protection</h2>
   </div>
@@ -233,7 +262,7 @@ const scrollToSection = (id) => {
       </p>
       <div className="actions">
         <button>🎥 Watch video</button>
-        <a href="#">Learn more</a>
+        <a href='/create'>Learn more</a>
       </div>
     </div>
 
@@ -245,7 +274,7 @@ const scrollToSection = (id) => {
       </p>
       <div className="actions">
         <button>🎥 Watch video</button>
-        <a href="#">Learn more</a>
+        <a href='/create'>Learn more</a>
       </div>
     </div>
   </div>
@@ -296,7 +325,7 @@ const scrollToSection = (id) => {
     business needing the essentials to start sourcing or a well-established enterprise looking for
     tools and solutions for more complex orders.
   </p>
-  <a href="#">Learn more</a>
+  <a href='/create'>Learn more</a>
 
   <div className="testimonial-card">
     <button className="arrow left">&#8249;</button>

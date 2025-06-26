@@ -34,13 +34,16 @@ import helper from '../assets/helper.jpg';
 import extension from '../assets/extension.png';
 import Create from '../Pages/Create.js';
 import Sign from '../Pages/Sign.js';
-
+import bgImage from '../assets/background_1.avif';
 
 
 function Header() {
+  const divStyle = {
+  backgroundImage: `url(${bgImage})`,
+};
   const images = [d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13,d14];
   return (
-    <div className='header-wrapper'>
+    <div className='header-wrapper' style={divStyle}>
       {/* Sticky top navbar */}
       <div className="navbar-sticky">
         <div className="navbar_1">
@@ -127,7 +130,7 @@ function Header() {
       <FaLinkedin style={{ color: 'black', fontSize: '24px' }}/>
     </div>
     <p className="agreement-text">
-      By signing in via social media, I agree to the <a href="#">Membership Agreement</a> and <a href="#">Privacy Policy</a>.
+      By signing in via social media, I agree to the <a href="/create">Membership Agreement</a> and <a href='/create'>Privacy Policy</a>.
     </p>
     <ul className="signin-links">
       <li>My NiryatBazaar</li>
@@ -280,7 +283,7 @@ function Header() {
             product information
           </li>
         </ul>
-        <a href="#" class="source-now-btn">Source now</a>
+        <a href="/create" class="source-now-btn">Source now</a>
       </div>
     </div>
   </div>
@@ -292,33 +295,33 @@ function Header() {
     <div class="dropdown-grid">
       <div>
         <h4>Get started</h4>
-        <p><a href="#">What is NiryatBazaar</a></p>
+        <p><a href='/create'>What is NiryatBazaar</a></p>
       </div>
       <div>
         <h4>Why NiryatBazaar</h4>
-        <p><a href="#">How sourcing works</a></p>
-        <p><a href="#">Membership program</a></p>
+        <p><a href="/create">How sourcing works</a></p>
+        <p><a href="/create">Membership program</a></p>
       </div>
       <div>
         <h4>Trade services</h4>
-        <p><a href="#">Order protections</a></p>
-        <p><a href="#">Logistics Services</a></p>
-        <p><a href="#">NiryatBazaar Business Credit</a></p>
-        <p><a href="#">Inspection & Monitoring</a></p>
+        <p><a href='/create'>Order protections</a></p>
+        <p><a href='/create'>Logistics Services</a></p>
+        <p><a href='/create'>NiryatBazaar Business Credit</a></p>
+        <p><a href='/create'>Inspection & Monitoring</a></p>
       </div>
       <div>
         <h4>Resources</h4>
-        <p><a href="#">Success stories</a></p>
-        <p><a href="#">Blogs</a></p>
-        <p><a href="#">Industry reports</a></p>
-        <p><a href="#">Help Center</a></p>
+        <p><a href='/create'>Success stories</a></p>
+        <p><a href='/create'>Blogs</a></p>
+        <p><a href='/create'>Industry reports</a></p>
+        <p><a href='/create'>Help Center</a></p>
       </div>
       <div>
         <h4>Webinars</h4>
-        <p><a href="#">Overview</a></p>
-        <p><a href="#">Meet the peers</a></p>
-        <p><a href="#">Ecommerce Academy</a></p>
-        <p><a href="#">How to source</a></p>
+        <p><a href='/create'>Overview</a></p>
+        <p><a href='/create'>Meet the peers</a></p>
+        <p><a href='/create'>Ecommerce Academy</a></p>
+        <p><a href='/create'>How to source</a></p>
       </div>
     </div>
   </div>
@@ -336,7 +339,7 @@ function Header() {
           <li><strong>Report IPR infringement</strong><br/>Protect your brand & content</li>
           <li><strong>Report abuse</strong><br/>Combat fraud and misconduct</li>
         </ul>
-        <a href="#" class="source-now-btn">Visit help center</a>
+        <a href='/create' class="source-now-btn">Visit help center</a>
       </div>
       <img src={helper} alt="Help Center" class="dropdown-image" />
     </div>
@@ -351,11 +354,11 @@ function Header() {
         <h2>Get the NiryatBazaar App</h2>
         <p>Find products, chat with suppliers, and manage orders anywhere</p>
         <ul>
-          <li><strong>App Store</strong><br/><a href="#">Download for iOS</a></li>
-          <li><strong>Google Play</strong><br/><a href="#">Download for Android</a></li>
+          <li><strong>App Store</strong><br/><a href='/create'>Download for iOS</a></li>
+          <li><strong>Google Play</strong><br/><a href='/create'>Download for Android</a></li>
           <li><strong>NiryatBazaar Lens</strong><br/>Search visually with our Chrome extension</li>
         </ul>
-        <a href="#" class="source-now-btn">Explore tools</a>
+        <a href='/create' class="source-now-btn">Explore tools</a>
       </div>
     </div>
   </div>
