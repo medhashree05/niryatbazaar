@@ -9,7 +9,7 @@ import Sign from './Pages/Sign';
 
 const App = () => {
   return (
-    <Router basename="/">
+    <Router basename="/niryatbazaar/">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
