@@ -63,7 +63,7 @@ html, body {
 .header-wrapper {
     background-size: cover;
     background-position: center top;
-    width: 1407px;
+    width: 1410px;
     color: white;
     position: relative;
 }
@@ -168,7 +168,7 @@ html, body {
 .navbar2_right {
   display: flex;
   gap: 30px;
-  margin-left: -90px;
+  margin-left: -300px;
 }
 
 
