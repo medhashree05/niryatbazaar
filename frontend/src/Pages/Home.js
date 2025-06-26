@@ -344,7 +344,7 @@ const scrollToSection = (id) => {
     <button className="arrow right">&#8250;</button>
   </div>
 </div>
-<div className="block_10">
+<div className="block_10" style={divStyle2}>
   <h2>Ready to get started?</h2>
   <p>Explore millions of products from trusted suppliers by signing up today!</p>
   <button className="signup-btn">Sign up</button>
