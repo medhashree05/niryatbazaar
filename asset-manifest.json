@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/niryatbazaar/static/css/main.b7823485.css",
-    "main.js": "/niryatbazaar/static/js/main.aee82aaa.js",
+    "main.css": "/niryatbazaar/static/css/main.807dbb11.css",
+    "main.js": "/niryatbazaar/static/js/main.3c75300b.js",
     "static/media/map.png": "/niryatbazaar/static/media/map.b1f861943d9a9aed6b18.png",
     "static/media/business.png": "/niryatbazaar/static/media/business.d9b5fb73cc27f4fdc6d2.png",
     "static/media/fulfill.png": "/niryatbazaar/static/media/fulfill.c5e8bacba175f669d56c.png",
     "static/media/scroll_3.png": "/niryatbazaar/static/media/scroll_3.4d91ca163c371af81a7d.png",
     "static/media/pay.png": "/niryatbazaar/static/media/pay.2130566f93f43b9e669f.png",
     "static/media/identify.png": "/niryatbazaar/static/media/identify.76afbe797cf39cc52c4d.png",
-    "static/media/Screenshot 2025-06-15 204344.png": "/niryatbazaar/static/media/Screenshot 2025-06-15 204344.c8c781d9777383862690.png",
-    "static/media/Screenshot 2025-06-15 204329.png": "/niryatbazaar/static/media/Screenshot 2025-06-15 204329.c06ea886143e39943a8d.png",
+    "static/media/card_2.png": "/niryatbazaar/static/media/card_2.c8c781d9777383862690.png",
+    "static/media/card_1.png": "/niryatbazaar/static/media/card_1.c06ea886143e39943a8d.png",
     "static/media/scroll_1.png": "/niryatbazaar/static/media/scroll_1.8afe87fe5bb726d7cfb0.png",
     "static/media/manage.png": "/niryatbazaar/static/media/manage.4ed60b773510d2be4280.png",
-    "static/media/Screenshot 2025-06-15 204422.png": "/niryatbazaar/static/media/Screenshot 2025-06-15 204422.dda6b6d0079d5212c34a.png",
+    "static/media/card_3.png": "/niryatbazaar/static/media/card_3.dda6b6d0079d5212c34a.png",
     "static/media/search.png": "/niryatbazaar/static/media/search.3d175ce44643eb2ad0fd.png",
     "static/media/AI.png": "/niryatbazaar/static/media/AI.ffb0efa8d4dd3601c948.png",
     "static/media/box.png": "/niryatbazaar/static/media/box.7ab97d2eceef73a6df1a.png",
@@ -31,11 +31,11 @@
     "static/media/d9.jpeg": "/niryatbazaar/static/media/d9.561247283c509bc46a60.jpeg",
     "static/media/d13.jpeg": "/niryatbazaar/static/media/d13.2712c5717082222ac97f.jpeg",
     "index.html": "/niryatbazaar/index.html",
-    "main.b7823485.css.map": "/niryatbazaar/static/css/main.b7823485.css.map",
-    "main.aee82aaa.js.map": "/niryatbazaar/static/js/main.aee82aaa.js.map"
+    "main.807dbb11.css.map": "/niryatbazaar/static/css/main.807dbb11.css.map",
+    "main.3c75300b.js.map": "/niryatbazaar/static/js/main.3c75300b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7823485.css",
-    "static/js/main.aee82aaa.js"
+    "static/css/main.807dbb11.css",
+    "static/js/main.3c75300b.js"
   ]
 }
