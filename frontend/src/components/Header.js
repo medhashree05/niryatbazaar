@@ -3,7 +3,7 @@ import './Header.css';
 import { Link } from "react-router-dom";
 import { CiGlobe } from "react-icons/ci";
 import { FaShoppingCart, FaUser } from "react-icons/fa";
-import { MdFlag } from "react-icons/md";
+import { MdFlag, MdWidthFull } from "react-icons/md";
 import { GrCart } from "react-icons/gr";
 import { FaFacebook } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
@@ -40,6 +40,7 @@ import bgImage from '../assets/background_1.avif';
 function Header() {
   const divStyle = {
   backgroundImage: `url(${bgImage})`,
+  
 };
   const images = [d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13,d14];
   return (
