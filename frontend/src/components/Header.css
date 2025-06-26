@@ -63,7 +63,7 @@ html, body {
 .header-wrapper {
     background-size: cover;
     background-position: center top;
-    width: 1607px;
+    width: 100%;
     color: white;
     position: relative;
 }
