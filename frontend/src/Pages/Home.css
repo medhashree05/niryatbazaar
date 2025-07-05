@@ -6,7 +6,7 @@
     margin-left: 0px;
     background-position: center;
     background-size: cover;
-   width: 768px;
+   width: 420px;
 }
 .main_1 p{
   text-align: center;
@@ -17,10 +17,10 @@
 }
 
 .main_1 h1 {
-  font-size: 40px;
+  font-size: 28px;
   margin-top: 10px;
   font-weight: bold;
-  margin-left: 200px;
+  margin-left: 10px;
 }
 
 .search {
@@ -30,7 +30,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 700px;
+  width: 400px;
   padding: 0px 20px;
   gap: 20px;
   color: black;
@@ -62,14 +62,14 @@
 .frequent {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 5px;
   margin-top: 100px;
 }
 
 .one, .two, .three {
   background:transparent;
   color: white;
-  margin-top: -15px;
+  margin-top: -55px;
   padding: 10px 20px;
   border-radius: 30px;
   font-size: 14px;
@@ -91,7 +91,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 768px;
+  width: 420px;
 }
 
 .view:hover{
@@ -150,7 +150,7 @@
   padding: 60px 20px;
   background: white;
   color: black;
-  width: 768px;
+  width: 420px;
 }
 
 .top-section {
@@ -219,7 +219,7 @@
 .block_4 {
   padding: 50px 100px;
   background: #f6f6f6;
-  width: 768px;
+  width: 420px;
 }
 
 .block_4 h2 {
@@ -233,6 +233,7 @@
 
 .business-grid {
   display: flex;
+  flex-direction: column;
   gap: 20px;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -316,6 +317,7 @@
 }
 .deal-card {
   display: flex;
+  flex-direction: column;
   align-items: center;
   background-color: white;
   padding: 12px;
@@ -357,8 +359,8 @@
 .block_5 {
   padding: 60px 20px;
   background: white;
-  margin-top: 300px;
-   width: 1410px;
+  margin-top: 250px;
+   width: 420px;
 }
 
 .block_5 h2 {
@@ -370,9 +372,11 @@
 
 .factory-cards {
   display: flex;
+  flex-direction: column;
   gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
+  margin-left: 70px;
   
 }
 .ranking-number{
@@ -380,7 +384,7 @@
 }
 
 .card_1, .card_2, .card_3 {
-  width: 350px;
+  width: 250px;
   height: 360px;
   position: relative;
   border-radius: 16px;
@@ -431,7 +435,7 @@
   color: white;
   padding: 60px 20px;
   overflow: hidden;
-   width: 1410px;
+   width: 420px;
 }
 
 .block_6::before {
@@ -510,7 +514,7 @@
   padding: 60px 40px;
   align-items: flex-start;
   flex-wrap: wrap;
-   width: 1410px;
+   width: 420px;
 }
 
 .left-section {
@@ -627,7 +631,7 @@
   background-color: #f9f5f2;
   padding: 60px 30px;
   text-align: center;
-   width: 1410px;
+   width: 420px;
 }
 
 .block_8 h2 {
@@ -704,7 +708,7 @@ blockquote {
   padding: 60px 30px;
   text-align: center;
   background: #fff;
-   width: 1410px;
+   width: 420px;
 }
 
 .block_9 h2 {
@@ -760,7 +764,7 @@ blockquote {
   text-align: center;
   color: white;
   position: relative;
-  width: 1410px;
+  width: 420px;
 }
 
 .block_10::before {
