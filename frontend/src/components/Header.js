@@ -54,11 +54,11 @@ function Header() {
           <div className="navbar_right">
 
   {/* Country Selector */}
-  <div className="menu-tab">
-     <div className="tab-trigger">
+  <div className="menu-tab-1">
+     <div className="tab-trigger-1">
     <MdFlag /> US
   </div>
-  <div className="tab-dropdown">
+  <div className="tab-dropdown-1">
     <div className='tr1'>
     <h4>Specify your location</h4>
     <p>Shipping options and fees vary based on your location</p>
@@ -75,11 +75,11 @@ function Header() {
   </div>
 
   {/* Language & Currency */}
-  <div className="menu-tab">
-     <div className="tab-trigger">
+  <div className="menu-tab-1">
+     <div className="tab-trigger-1">
     <CiGlobe /> English-USD
   </div>
-  <div className="tab-dropdown">
+  <div className="tab-dropdown-1">
      <div className='tr1'>
     <h4>Set language and currency</h4>
     <p>Select your preferred language and currency.</p>
@@ -104,7 +104,7 @@ function Header() {
     <FaShoppingCart />
   </div>
   <div className="tab-dropdown">
-     <div className='tr1'>
+     <div className='tr'>
     <h4>Shopping cart</h4>
    <div className='tab-trigger'> 
     <GrCart style={{ color: 'black', fontSize: '24px' }}/> 
@@ -121,7 +121,7 @@ function Header() {
     <FaUser /> Sign in
   </div>
   <div className="tab-dropdown">
-     <div className='tr1'>
+     <div className='tr'>
     <h4>Welcome to NiryatBazaar!</h4>
     <button className="btn-primary" style={{color:'black',backgroundColor:'black'}}><Link to="/sign" >Sign in</Link></button>
     <p>Or, continue with:</p>
