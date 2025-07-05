@@ -110,9 +110,9 @@ const scrollToSection = (id) => {
       </div>
       
       <div className="search">
-        <input type="text" className="bar" placeholder="home use beauty equipment" />
+        <input type="text" className="bar" placeholder="home " />
         <div className="cam">📷</div>
-        <div className="search_logo">🔍 Search</div>
+        <div className="search_logo">Search</div>
       </div>
 
       <div className="frequent">
@@ -358,19 +358,19 @@ const scrollToSection = (id) => {
   </p>
   <div className="cards">
     <div className="cards-1">
-    
+    <div className="card-9">
       <img src={business} alt="Mission" />
       <h4>OUR MISSION</h4>
-    
+    </div>
   
     </div>
     <div className="cards-2">
-    <div className="card">
+    <div className="card-9">
       <img src={map} alt="Locations" />
       <h4>OUR LOCATIONS</h4>
   
     </div>
-    <div className="card">
+    <div className="card-9">
       <img src={sky} alt="ESG" />
       <h4>OUR ESG PROMISES</h4>
      

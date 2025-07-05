@@ -32,7 +32,7 @@ function Footer() {
      
 
       <div className="links-section">
-        <div className="column">
+        <div className="column_1">
           <h4>Get support</h4>
           <ul>
             <li>Help Center</li>
@@ -42,7 +42,7 @@ function Footer() {
             <li>Report abuse</li>
           </ul>
         </div>
-        <div className="column">
+        <div className="column_1">
           <h4>Payments and protections</h4>
           <ul>
             <li>Safe and easy payments</li>
@@ -53,7 +53,7 @@ function Footer() {
             <li>Product monitoring</li>
           </ul>
         </div>
-        <div className="column">
+        <div className="column_1">
           <h4>Source on NiryatBazaar</h4>
           <ul>
             <li>Request for Quotation</li>
@@ -63,7 +63,7 @@ function Footer() {
             <li>NiryatBazaar Reads</li>
           </ul>
         </div>
-        <div className="column">
+        <div className="column_1">
           <h4>Sell on NiryatBazaar</h4>
           <ul>
             <li>Start selling</li>
@@ -73,7 +73,7 @@ function Footer() {
             <li>Supplier App</li>
           </ul>
         </div>
-        <div className="column">
+        <div className="column_1">
           <h4>Get to know us</h4>
           <ul>
             <li>About NiryatBazaar</li>

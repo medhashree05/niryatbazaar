@@ -160,7 +160,7 @@ function Header() {
       <div className="navbar_2">
         <div className="navbar2_left">
           <div className="menu-item ">
-  All categories
+  All
   <div className="dropdown">
     <div className='d_1'>
     <div className="categories-left">
@@ -174,35 +174,13 @@ function Header() {
         <li>Jewelry, Eyewear & Watches</li>
       </ul>
     </div>
-    <div className="categories-right">
-      {[
-        "Safety Helmets",
-        "Inspection Camera",
-        "Notebooks",
-        "Laptops",
-        "Car Perfume",
-        "Gaming Laptops",
-        "Tactical Pouch",
-        "Used Laptops",
-        "Camping Tent",
-        "Televisions",
-        "Power Wrists",
-        "Fat Bike",
-        "PC",
-        "Graphics Cards",
-      ].map((item, index) => (
-        <div className="category-card" key={index}>
-          <img src={images[index]} alt={item} />
-          <p>{item}</p>
-        </div>
-      ))}
-    </div>
+   
   </div>
   </div>
 </div>
 
           <div className='menu-item '>
-  Featured selections
+  Featured
   <div className='dropdown'>
     <div className='d_2'>
     <div className="featured-card">
@@ -231,7 +209,7 @@ function Header() {
 
 
          <div className='menu-item'>
-  Order protections
+  protections
   <div className='dropdown'>
    <div className='d_3'>
       <div className="dropdown-card">
@@ -263,7 +241,7 @@ function Header() {
         <div className="navbar2_right">
        
 <div class="menu-item">
- AI sourcing agent
+ AI  agent
   <div class="dropdown">
     <div class="dropdown-content">
       <img src= {AI} alt="AI Sourcing Agent" class="dropdown-image" />
@@ -329,12 +307,12 @@ function Header() {
 </div>
 
           <div class="menu-item">
-  Help Center
+  Help
   <div class="dropdown">
     <div class="dropdown-content">
       <div class="dropdown-text">
         <h2>Need help?</h2>
-        <p>Get support for your orders and resolve issues quickly</p>
+        <p>Get support for orders and resolve issues quickly</p>
         <ul>
           <li><strong>Open a dispute</strong><br/>Resolve product/order issues</li>
           <li><strong>Report IPR infringement</strong><br/>Protect your brand & content</li>
@@ -347,7 +325,7 @@ function Header() {
   </div>
 </div>
 <div class="menu-item">
-  App & Extension
+   Extension
   <div class="dropdown">
     <div class="dropdown-content">
       <img src={extension} alt="NiryatBazaar App" class="dropdown-image-ext" />
@@ -366,7 +344,7 @@ function Header() {
 </div>
 
           <div className='menu-item supplier' >
-            <Link to='https://register.NiryatBazaar/reg/form.htm?entrance=buyerHome'>Become a supplier</Link>
+            <Link to='https://register.NiryatBazaar/reg/form.htm?entrance=buyerHome'>supplier</Link>
 
           </div>
         </div>

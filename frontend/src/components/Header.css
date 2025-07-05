@@ -16,7 +16,7 @@ html, body {
 
 
 .categories-left {
-  width: 30%;
+  width: 70%;
   border-right: 1px solid #ddd;
 }
 
@@ -63,7 +63,7 @@ html, body {
 .header-wrapper {
     background-size: cover;
     background-position: center top;
-    width: 410px;
+    width: 360px;
     color: white;
     position: relative;
 }
@@ -72,7 +72,7 @@ html, body {
 .navbar_1 {
   position: fixed;
   top: 0;
-  width: 410px;
+  width: 360px;
   background-color: rgba(6, 0, 0, 0.8);
   padding: 10px 30px;
   display: flex;
@@ -111,7 +111,7 @@ html, body {
   position: absolute;       /* Position relative to viewport */
   top: 50x;             /* Adjust based on navbar height */
   left: 0;               /* Aligns to the left edge of screen */
-  width:410px;          /* Full screen width */
+  width:360px;          /* Full screen width */
   background: white;
   color: black;
   padding: 20px 40px;
@@ -136,6 +136,7 @@ html, body {
 
 .d_1{
   display:flex ;
+  flex-direction: column;
 }
 
 /* Create button */
@@ -224,7 +225,8 @@ html, body {
 }
 .d_2{
   display: flex;
-  gap: 250px;
+  gap: 20px;
+  flex-direction: column;
 }
 
 .featured-card p {
@@ -235,7 +237,9 @@ html, body {
 
 .d_3{
   display: flex;
+  flex-direction: column;
  gap: 20px;
+ 
 }
 .dropdown-card {
   flex: 1 1 220px;
@@ -270,10 +274,12 @@ html, body {
 
 .dropdown-content {
   display: flex;
-  max-width: 1400px;
-  margin: 0 auto;
+  flex-direction: column;
+  width: 360px;
+  
+  margin-left: -23px;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
 }
 
 .dropdown-image {
@@ -291,6 +297,7 @@ html, body {
 
 .dropdown-text {
   flex: 1;
+  margin-left: -10px;
 }
 
 .dropdown-text h2 {
@@ -326,6 +333,7 @@ html, body {
 /* Buyer Central grid */
 .dropdown-grid {
   display: grid;
+  grid-column: auto;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 40px;
   max-width: 1400px;
@@ -394,19 +402,23 @@ html, body {
 }
 
 .tab-dropdown {
-  position: absolute;
-  top: 100%;
-  
+   position: absolute;
+  top: 100%; /* right below the trigger */
+  left: 0;
   width: 300px;
-  background: #fff;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
-  border-radius: 8px;
-  padding: 16px;
-  z-index: 999;
-  display: none;
-  flex-direction: column;
-  gap: 12px;
-
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: none; /* hide by default */
+}
+@media (max-width: 360px) {
+  .tab-dropdown {
+    width: 90vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .tr1{
