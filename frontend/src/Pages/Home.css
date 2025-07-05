@@ -741,7 +741,7 @@ blockquote {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-left: 15px;
+  margin-left: 0px;
   
 }
 .cards-1{
