@@ -1,4 +1,4 @@
-import React from 'react';
+import {React,useState} from 'react';
 import './Header.css';
 import { Link } from "react-router-dom";
 import { CiGlobe } from "react-icons/ci";
@@ -42,12 +42,15 @@ function Header() {
   backgroundImage: `url(${bgImage})`,
   
 };
+
+
   const images = [d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13,d14];
   return (
     <div className='header-wrapper' >
       {/* Sticky top navbar */}
       <div className="navbar-sticky">
         <div className="navbar_1">
+         
           <div className="logo">
             <Link to="/">NiryatBazaar</Link>
           </div>
@@ -155,6 +158,7 @@ function Header() {
 
         </div>
       </div>
+       
 
       {/* Scrollable secondary navbar */}
       <div className="navbar_2">
@@ -238,7 +242,7 @@ function Header() {
 
         </div>
 
-        {/*<div className="navbar2_right">
+        <div className="navbar2_right">
        
 <div class="menu-item">
  AI  agent
@@ -347,7 +351,7 @@ function Header() {
             <Link to='https://register.NiryatBazaar/reg/form.htm?entrance=buyerHome'>supplier</Link>
 
           </div>
-        </div>*/}
+        </div>
       </div>
     </div>
   );
