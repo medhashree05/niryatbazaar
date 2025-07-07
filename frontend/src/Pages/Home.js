@@ -116,7 +116,7 @@ const scrollToSection = (id) => {
       </div>
 
       <div className="frequent">
-        Frequently searched:
+             <p>Frequently searched:</p>
         <button className="one">purple brand jeans</button>
         <button className="two">spider hoodie</button>
         <button className="three">vending machine</button>

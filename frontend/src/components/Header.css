@@ -64,7 +64,7 @@ html, body {
     background-size: cover;
     background-position: center top;
     width: 100%;
-max-width: 360px;
+max-width: 400px;
 margin: 0 auto;
     color: white;
     position: relative;
@@ -74,7 +74,7 @@ margin: 0 auto;
 .navbar_1 {
   position: fixed;
   top: 0;
-  max-width: 360px;
+  max-width: 400px;
   background-color: rgba(6, 0, 0, 0.8);
   padding: 10px 30px;
   display: flex;
@@ -113,7 +113,7 @@ margin: 0 auto;
   position: absolute;       /* Position relative to viewport */
   top: 50x;             /* Adjust based on navbar height */
   left: 0;               /* Aligns to the left edge of screen */
-  width:360px;          /* Full screen width */
+  width:400px;          /* Full screen width */
   background: white;
   color: black;
   padding: 20px 40px;
