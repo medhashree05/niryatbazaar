@@ -4,7 +4,9 @@
   font-size: 14px;
   color: #333;
   padding: 40px 20px;
-   width: 360px;
+  width: 100%;
+max-width: 360px;
+margin: 0 auto;
  
 }
 

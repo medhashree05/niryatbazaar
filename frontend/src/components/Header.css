@@ -1,4 +1,4 @@
-/* Reset and layout */
+
 * {
   margin: 0;
   padding: 0;
@@ -63,7 +63,9 @@ html, body {
 .header-wrapper {
     background-size: cover;
     background-position: center top;
-    width: 360px;
+    width: 100%;
+max-width: 360px;
+margin: 0 auto;
     color: white;
     position: relative;
 }
@@ -72,7 +74,7 @@ html, body {
 .navbar_1 {
   position: fixed;
   top: 0;
-  width: 360px;
+  max-width: 360px;
   background-color: rgba(6, 0, 0, 0.8);
   padding: 10px 30px;
   display: flex;
@@ -275,7 +277,7 @@ html, body {
 .dropdown-content {
   display: flex;
   flex-direction: column;
-  width: 360px;
+  margin: 0 auto;
   
   margin-left: -23px;
   align-items: center;
@@ -362,7 +364,7 @@ html, body {
   cursor: pointer;
 }
 
-.tab-trigger {
+.tab-trigger,.tab-trigger-1 {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -389,7 +391,7 @@ html, body {
 .tab-dropdown,.tab-dropdown-1 li:last-child {
   margin-bottom: 0;
 }
-.tab-trigger {
+.tab-trigger,.tab-trigger-1 {
   cursor: pointer;
   display: flex;
   align-items: center;

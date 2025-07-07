@@ -6,7 +6,9 @@
     margin-left: 0px;
     background-position: center;
     background-size: cover;
-   width: 360px;
+   width: 100%;
+max-width: 360px;
+margin: 0 auto;
 }
 .main_1 p{
   text-align: center;
@@ -101,7 +103,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 360px;
+  width: 100%;
+max-width: 360px;
+margin: 0 auto;
 }
 
 .view:hover{
@@ -160,7 +164,9 @@
   padding: 60px 20px;
   background: white;
   color: black;
-  width: 360px;
+  width: 100%;
+max-width: 360px;
+margin: 0 auto;
 }
 
 .top-section {
@@ -229,7 +235,9 @@
 .block_4 {
   padding: 50px 20px;
   background: #f6f6f6;
-  width: 360px;
+  width: 100%;
+max-width: 360px;
+margin: 0 auto;
 }
 
 .block_4 h2 {
@@ -374,7 +382,9 @@
   padding: 60px 20px;
   background: white;
   margin-top: 0px;
-   width: 360px;
+   width: 100%;
+max-width: 360px;
+margin: 0 auto;
 }
 
 .block_5 h2 {
@@ -449,7 +459,9 @@
   color: white;
   padding: 60px 20px;
   overflow: hidden;
-   width: 360px;
+   width: 100%;
+max-width: 360px;
+margin: 0 auto;
 }
 
 .block_6::before {
@@ -528,7 +540,9 @@
   padding: 60px 40px;
   align-items: flex-start;
   flex-wrap: wrap;
-   width: 360px;
+   width: 100%;
+max-width: 360px;
+margin: 0 auto;
 }
 
 .left-section {
@@ -645,7 +659,9 @@
   background-color: #f9f5f2;
   padding: 60px 30px;
   text-align: center;
-   width: 360px;
+   width: 100%;
+max-width: 360px;
+margin: 0 auto;
 }
 
 .block_8 h2 {
@@ -722,7 +738,9 @@ blockquote {
   padding: 60px 30px;
   text-align: center;
   background: #fff;
-   width: 360px;
+   width: 100%;
+max-width: 360px;
+margin: 0 auto;
 }
 
 .block_9 h2 {
@@ -782,7 +800,9 @@ blockquote {
   text-align: center;
   color: white;
   position: relative;
-  width: 360px;
+  width: 100%;
+max-width: 360px;
+margin: 0 auto;
 }
 
 .block_10::before {

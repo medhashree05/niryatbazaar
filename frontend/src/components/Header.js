@@ -238,7 +238,7 @@ function Header() {
 
         </div>
 
-        <div className="navbar2_right">
+        {/*<div className="navbar2_right">
        
 <div class="menu-item">
  AI  agent
@@ -347,7 +347,7 @@ function Header() {
             <Link to='https://register.NiryatBazaar/reg/form.htm?entrance=buyerHome'>supplier</Link>
 
           </div>
-        </div>
+        </div>*/}
       </div>
     </div>
   );
