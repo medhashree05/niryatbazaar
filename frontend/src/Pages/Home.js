@@ -99,6 +99,30 @@ const scrollToSection = (id) => {
     element.scrollIntoView({ behavior: 'smooth' });
   }
 };
+React.useEffect(() => {
+  const cards = document.querySelectorAll(".card_b2,.card-9, .trust-box,.column,.card_1,.card_2,.card_3,.cards-1,.cards-2");
+
+  const observer = new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("slide-up-in-view");
+          observer.unobserve(entry.target); // Only trigger once
+        }
+      });
+    },
+    {
+      threshold: 0.3, // adjust sensitivity
+    }
+  );
+
+  cards.forEach((card) => {
+    observer.observe(card);
+  });
+
+  // Optional cleanup
+  return () => observer.disconnect();
+}, []);
 
 
   return (
