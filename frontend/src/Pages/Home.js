@@ -103,7 +103,7 @@ const scrollToSection = (id) => {
 
   return (
     <div>
-    <div className="block_1" style={divStyle}>
+    <div className="block_1">
       <div className="main_1">
         <p>Learn about NiryatBazaar</p>
         <h1>The leading B2B ecommerce platform for global trade</h1>

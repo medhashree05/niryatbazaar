@@ -77,7 +77,7 @@ function Header() {
   {/* Language & Currency */}
   <div className="menu-tab-1">
      <div className="tab-trigger-1">
-    <CiGlobe /> English-USD
+    <CiGlobe /> English
   </div>
   <div className="tab-dropdown-1">
      <div className='tr1'>
