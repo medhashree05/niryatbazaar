@@ -318,7 +318,7 @@ function Header() {
       <div className="navbar_2">
         <div className="navbar2_left">
           <div className="menu-item-1">
-            All categories
+            All
             <div className="dropdown-1">
               <div className='d_1'>
                 <div className="categories-left">
@@ -339,7 +339,7 @@ function Header() {
           </div>
 
           <div className='menu-item-1'>
-            Featured selections
+            Featured 
             <div className='dropdown-1'>
               <div className='d_2'>
                 <div className="featured-card">
@@ -366,7 +366,7 @@ function Header() {
           </div>
 
           <div className='menu-item-1'>
-            Order protections
+            Protections
             <div className='dropdown-1'>
               <div className='d_3'>
                 <div className="dropdown-card">
