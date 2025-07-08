@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/niryatbazaar/static/css/main.dac7d7ec.css",
-    "main.js": "/niryatbazaar/static/js/main.b86b2f60.js",
+    "main.css": "/niryatbazaar/static/css/main.073ad3c1.css",
+    "main.js": "/niryatbazaar/static/js/main.2d708b47.js",
     "static/media/map.png": "/niryatbazaar/static/media/map.b1f861943d9a9aed6b18.png",
     "static/media/business.png": "/niryatbazaar/static/media/business.d9b5fb73cc27f4fdc6d2.png",
     "static/media/fulfill.png": "/niryatbazaar/static/media/fulfill.c5e8bacba175f669d56c.png",
@@ -31,11 +31,11 @@
     "static/media/d9.jpeg": "/niryatbazaar/static/media/d9.561247283c509bc46a60.jpeg",
     "static/media/d13.jpeg": "/niryatbazaar/static/media/d13.2712c5717082222ac97f.jpeg",
     "index.html": "/niryatbazaar/index.html",
-    "main.dac7d7ec.css.map": "/niryatbazaar/static/css/main.dac7d7ec.css.map",
-    "main.b86b2f60.js.map": "/niryatbazaar/static/js/main.b86b2f60.js.map"
+    "main.073ad3c1.css.map": "/niryatbazaar/static/css/main.073ad3c1.css.map",
+    "main.2d708b47.js.map": "/niryatbazaar/static/js/main.2d708b47.js.map"
   },
   "entrypoints": [
-    "static/css/main.dac7d7ec.css",
-    "static/js/main.b86b2f60.js"
+    "static/css/main.073ad3c1.css",
+    "static/js/main.2d708b47.js"
   ]
 }
