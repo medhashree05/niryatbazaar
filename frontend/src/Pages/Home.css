@@ -61,25 +61,35 @@ body {
   opacity: 0.9;
   margin-bottom: 0.5rem;
 }
+ .block_1 .bar {
+  margin: 0;
+  margin-left: 10px;
+  flex: 1;
+  padding: 0rem 0rem;
+  border: none;
+  outline: none;
+  min-height: 40px;
+  font-size: 0.9rem;
+}
+.block_1 .search{
+  margin-top: 2px;
+}
 
 .search {
   display: flex;
-  margin: 1.5rem auto;
+  margin: 0 auto;
   max-width: 500px;
   background: white;
   border-radius: 50px;
   overflow: hidden;
+  border: none;
+  padding: 0;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   animation: fadeIn 1s ease-out;
+  max-height: 40px;
 }
 
-.bar {
-  flex: 1;
-  padding: 0.8rem 1rem;
-  border: none;
-  outline: none;
-  font-size: 0.9rem;
-}
+
 
 .cam {
   padding: 0.8rem;
@@ -91,8 +101,9 @@ body {
 }
 
 .search_logo {
-  padding: 0.8rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   background: #863c03;
+  border: none;
   color: white;
   font-weight: 600;
   cursor: pointer;
@@ -308,30 +319,39 @@ body {
 }
 
 .carousel-container {
-  display: flex;
-  height: 100%;
-  transition: transform 0.5s ease;
+  position: relative;
+  width: 100%;
+  height: 240px; /* adjust based on your image size */
+  overflow: hidden;
 }
 
+
+
 .carousel-item {
-  min-width: 100%;
-  position: relative;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+  z-index: 0;
+}
+
+.carousel-item.active {
+  opacity: 1;
+  z-index: 1;
 }
 
 .carousel-item img {
   width: 100%;
   height: 150px;
   object-fit: contain;
-  margin-top: 1rem;
+  margin-top: -6rem;
+  margin-left: 8rem;
 }
 
 .ranking-number {
   position: absolute;
-  top: 1rem;
+  top: 0rem;
   left: 1rem;
   font-size: 2rem;
   font-weight: 700;
@@ -341,13 +361,15 @@ body {
 .subheading {
   font-size: 1.2rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0px;
+ 
 }
 
 .subheading small {
   font-size: 0.9rem;
   font-weight: 400;
   color: #6b7280;
+  
 }
 
 .box {
@@ -927,26 +949,103 @@ blockquote {
   .cards-2 {
     flex: 1;
   }
+
+ 
 }
 
 @media (min-width: 1024px) {
+ .block_1 .bar {
+  margin: 0;
+  margin-left: 10px;
+  flex: 1;
+  padding: 0rem 0rem;
+  border: none;
+  outline: none;
+  min-height: 40px;
+  font-size: 0.9rem;
+}
+.block_1 .search{
+  margin-top: 2px;
+}
   .info-card {
     grid-template-columns: repeat(4, 1fr);
   }
-  
-  .category-grid {
-    grid-template-columns: repeat(4, 1fr);
+  .right-section{
+    min-height: 450px;
+  }
+  .block_4{
+    margin-left: 50px;
+    margin-right: 50px;
   }
   
+  .category-grid {
+    grid-template-columns: repeat(7, 1fr);
+   margin-top: -200px;
+   margin-right: 500px;
+    
+  }
+  .carousel-container img{
+    min-height: 600px;
+  }
+  .carousel-container{
+    display: flex;
+    min-height: 650px;
+  }
+  .column .top-ranking-carousel{
+    min-height: 700px;
+  }
   .column {
     flex: 1 1 calc(33.333% - 1rem);
+    min-height: 710px;
   }
   
   .factory-cards {
     grid-template-columns: repeat(3, 1fr);
+    min-height: 400px;
   }
   
   .card_3 {
     grid-column: auto;
   }
+  .card_1,.card_2,.card_3{
+     min-height: 400px;
+  }
+  .right-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+   width: 400px;
+   margin-left: 1450px;
+   margin-top: -50px;
+
+}
+.deal-card img{
+  min-height: 300px;
+  min-width: 300px;
+}
+.deal-box img{
+  min-height: 180px;
+}
+
+.testimonial-card{
+  min-width: max-content;
+}
+.cards{
+  display: flex;
+  min-height: 400px;
+  min-width: fit-content;
+
+}
+.cards-1 img{
+  min-height:380px;
+}
+
+.cards-2{
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+}
+
+
+
 }

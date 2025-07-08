@@ -43,3 +43,33 @@
 .sign:hover {
   background-color: darkorange;
 }
+/* Container for the last two lines */
+.auth-container > div {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #6b7280; /* Grayish text color */
+  font-size: 0.95rem;
+}
+
+/* Create account link styles */
+.btn-create {
+  display: inline-block;
+  margin-top: 0rem;
+  padding: 0.6rem 1rem;
+  /* Your brand color */
+  color: orange;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  margin-left: 0px;
+}
+
+.btn-create:hover {
+  background-color: #e87603; /* Lighter brand color */
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: If you want both elements centered together */

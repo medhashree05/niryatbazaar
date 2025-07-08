@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import './Home.css';
+import {Link} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import cpuImg from '../assets/scroll_1.png';
 import keyboardImg from '../assets/scroll_2.png';
 import mouseImg from '../assets/scroll_3.png';
@@ -99,6 +101,13 @@ const scrollToSection = (id) => {
     element.scrollIntoView({ behavior: 'smooth' });
   }
 };
+const [query, setQuery] = useState('');
+  const navigate = useNavigate();
+
+  const handleSearch = () => {
+    // Navigate to products page with query param (even empty is okay)
+    navigate(`/products?search=${encodeURIComponent(query.trim())}`);
+  };
 React.useEffect(() => {
   const cards = document.querySelectorAll(".card_b2,.card-9, .trust-box,.column,.card_1,.card_2,.card_3,.cards-1,.cards-2");
 
@@ -133,11 +142,18 @@ React.useEffect(() => {
         <h1>The leading B2B ecommerce platform for global trade</h1>
       </div>
       
+      
       <div className="search">
-        <input type="text" className="bar" placeholder="home " />
-        <div className="cam">📷</div>
-        <div className="search_logo">Search</div>
-      </div>
+      <input
+        type="text"
+        className="bar"
+        placeholder="home use beauty equipment"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+      />
+      <div className="cam">📷</div>
+      <button onClick={handleSearch} className="search_logo">🔍 search</button>
+    </div>
 
       <div className="frequent">
              <p>Frequently searched:</p>
@@ -211,7 +227,7 @@ React.useEffect(() => {
         key={index}
       >
         <div className="ranking-number">#{index + 1}</div>
-        <p className="subheading">{item.title}<br /><small>{item.subtitle}</small></p>
+        <p className="subheading" style={{marginTop:"40px"}}>{item.title}<br /><small>{item.subtitle}</small></p>
         <img src={item.image} alt={item.title} />
       </div>
     ))}
@@ -371,7 +387,7 @@ React.useEffect(() => {
 <div className="block_10" style={divStyle2}>
   <h2>Ready to get started?</h2>
   <p>Explore millions of products from trusted suppliers by signing up today!</p>
-  <button className="signup-btn">Sign up</button>
+  <button className="signup-btn"><Link to='/create/'>Sign up</Link></button>
 </div>
 <div className="block_9">
   <h2>Empowering businesses through global trade</h2>
@@ -381,9 +397,9 @@ React.useEffect(() => {
     internationally.
   </p>
   <div className="cards">
-    <div className="cards-1">
-    <div className="card-9">
-      <img src={business} alt="Mission" />
+    <div className="cards-1" >
+    <div className="card-9" >
+      <img src={business} alt="Mission"  />
       <h4>OUR MISSION</h4>
     </div>
   

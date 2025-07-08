@@ -31,6 +31,7 @@
 
 .flag {
   font-size: 20px;
+  margin-top: 7px;
 }
 
 .country-section a {
@@ -139,7 +140,7 @@
   }
   
   .footer-bottom {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
@@ -156,5 +157,9 @@
     order: 3;
     width: 100%;
     text-align: center;
+  }
+  .country-section h3{
+    align-self: center;
+    margin-left: 800px;
   }
 }
