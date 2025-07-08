@@ -185,7 +185,7 @@ function EditProfile() {
         if (passwordResponse.status === 401) {
           localStorage.removeItem('user');
           localStorage.removeItem('token');
-          navigate('/login');
+          navigate('/sign');
           return;
         }
         setErrorMessage(passwordResult.message || 'Failed to change password');
